@@ -23,6 +23,7 @@ import ss.utopia.email.entity.MailEntity;
 @Service
 public class MailServiceImpl implements MailService {
 
+  //YouTube Streamer
   static final EnvironmentVariableCredentialsProvider AWSCredentials = new EnvironmentVariableCredentialsProvider();
   static final String from = "jordan.divina@smoothstack.com";
   static final String fromName = "Utopia Airlines";
